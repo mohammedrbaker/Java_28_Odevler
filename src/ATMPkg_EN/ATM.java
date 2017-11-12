@@ -22,7 +22,7 @@ public class ATM {
 
     public static void ATMAccessControl(int accountNo, int password) {
 
-        int usersAccountNo[] = {11, 22, 33, 44, 55};
+        int usersAccountNo[] = {111, 222, 333, 444, 555};
         int usersPasswords[] = {123, 456, 789, 809, 234};
         boolean control = false;
         for (int i = 0; i < 5; i++) {
