@@ -9,7 +9,6 @@ import java.util.Scanner;
  * ATM machine with different banknote.
  */
 public class ATM {
-    //
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your bank account number: ");
@@ -111,6 +110,9 @@ public class ATM {
             int totalWithdrawenMount = (banknoteOut25K * 25000 + banknoteOut10K * 10000
                     + banknoteOut5K * 5000 + banknoteOut1K * 1000 + banknoteOut500 * 500);
             ATMTotalMount = ATMTotalMount - totalWithdrawenMount;
+
+
+
             System.out.println("Total Withdrawen Mount: " + totalWithdrawenMount);
             System.out.println("Remaining Mount Inside ATM: " + ATMTotalMount);
             System.out.println("----------------------");
@@ -124,6 +126,7 @@ public class ATM {
             System.out.println("Total: " + totalWithdrawenMount);
 
         }
+
 
 
     }
